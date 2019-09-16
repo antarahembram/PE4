@@ -35,8 +35,7 @@ public class MultipleOccurrenceTest {
     public void getMultipleOccurrencesTest_InputStringWithStingtoBeFound_ListOfStartEndIndex_Failure()
     {
         List<String> occurrenceList=new ArrayList<String >();
-        occurrenceList.add("2-5");
-        occurrenceList.add("4-7");
+        occurrenceList.add("2-6");
         assertNotEquals("Error in getMultipleOccurrences():  ",occurrenceList,multipleOccurrence.getMultipleOccurrences("Sheseslls seashells by the seashore","ese"));
         assertNotNull("Error in getMultipleOccurrences(): should not return null",multipleOccurrence.getMultipleOccurrences("Sheseslls seashells by the seashore","ese"));
 
