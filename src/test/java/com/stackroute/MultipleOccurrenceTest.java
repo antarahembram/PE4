@@ -37,8 +37,8 @@ public class MultipleOccurrenceTest {
         List<String> occurrenceList=new ArrayList<String >();
         occurrenceList.add("2-5");
         occurrenceList.add("4-7");
-        assertNotEquals("Error in getMultipleOccurrences():  ",occurrenceList,multipleOccurrence.getMultipleOccurrences("Shesesells seashells by the seashore","ese"));
-        assertNotNull("Error in getMultipleOccurrences(): should not return null",multipleOccurrence.getMultipleOccurrences("Shesesells seashells by the seashore","ese"));
+        assertNotEquals("Error in getMultipleOccurrences():  ",occurrenceList,multipleOccurrence.getMultipleOccurrences("Sheseslls seashells by the seashore","ese"));
+        assertNotNull("Error in getMultipleOccurrences(): should not return null",multipleOccurrence.getMultipleOccurrences("Sheseslls seashells by the seashore","ese"));
 
     }
 }
